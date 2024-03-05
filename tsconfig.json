@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+      "target": "ES6",
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "module": "CommonJS",
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "moduleResolution": "Node",
+      "resolveJsonModule": true,
+      "rootDir": "./",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "strictPropertyInitialization": false,
+      "outDir": "./build",
+      
+  },
+  
+  "exclude": ["node_modules",]
+}
