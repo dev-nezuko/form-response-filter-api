@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.ts",
-    "build": "rimraf build && npx tsc",
-    "start": "cd build && node index.js"
+    "build": "node node_modules/typescript/bin/tsc",
+    "start": "node build/index.js"
   },
   "keywords": [],
   "license": "ISC",
@@ -16,7 +16,6 @@
     "dotenv": "^16.4.5",
     "express": "^4.18.3",
     "rimraf": "^5.0.5",
-    "tsc": "^2.0.4",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
